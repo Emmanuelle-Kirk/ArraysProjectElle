@@ -25,6 +25,15 @@ namespace ArraysProjectElle
             weaponName[1] = "Shot Gun";
             weaponName[2] = "BFG";
 
+            if (weapon <= 0)
+            {
+                weapon = 0;
+            }
+            if (weapon >= 2)
+            {
+                weapon = 2;
+            }
+
             Console.WriteLine(weaponName[weapon] + " Ammo: " + ammo[weapon]);
         }
         static void Main(string[] args)
