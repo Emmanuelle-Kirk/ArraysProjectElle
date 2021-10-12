@@ -14,10 +14,18 @@ namespace ArraysProjectElle
         static void Weapon()
         {
             int[] ammo;
-            ammo = new int[3]; //initialization (telling the compiler the size)
+            ammo = new int[3];
             ammo[0] = 6; //pistol
             ammo[1] = 2; //shotgun
             ammo[2] = 10; //bfg
+
+            string[] weaponName;
+            weaponName = new string[3];
+            weaponName[0] = "Pistol";
+            weaponName[1] = "Shot Gun";
+            weaponName[2] = "BFG";
+
+            Console.WriteLine(weaponName[weapon] + " Ammo: " + ammo[weapon]);
         }
         static void Main(string[] args)
         {
