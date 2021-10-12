@@ -10,6 +10,9 @@ namespace ArraysProjectElle
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Weapon System");
+
+            Console.ReadKey(true);
         }
     }
 }
