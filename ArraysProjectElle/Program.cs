@@ -40,6 +40,14 @@ namespace ArraysProjectElle
         {
             Console.WriteLine("Weapon System");
             Weapon();
+            weapon = 1;
+            Weapon();
+            weapon = 2;
+            Weapon();
+            weapon = -10;
+            Weapon();
+            weapon = 10;
+            Weapon();
             Console.ReadKey(true);
         }
     }
